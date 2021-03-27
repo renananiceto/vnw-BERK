@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.space-logo{
+    width: 36rem;
+
+}
+
+.position-header{
+    display: flex;
+    justify-content: space-around ;
+}
+li{
+    list-style: none;
+}
+.model-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32rem;
+}
+.conteiner-paragraph{
+    display: flex;
+
+}
+.box-paragraph{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+.box-img-paragraph{
+    background-image: url(IMG/27\ Plum.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 614px;
+    width:930px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 412px;
+}
+
+.img-paragraph-left{
+    height: 226px;
+}
+
+.img-paragraph-right{
+    height: 137px;
+}
