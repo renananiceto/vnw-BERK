@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .space-logo{
@@ -13,8 +14,17 @@
     display: flex;
     justify-content: space-around ;
 }
-li{
+
+.style-list-primary{
     list-style: none;
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+.style-list-primary:hover{
+    color: black;
+    opacity: 1;
+    font-weight: bolder;
 }
 .model-list{
     display: flex;
@@ -33,12 +43,13 @@ li{
     align-items: center;
     flex-direction: column;
     text-align: start;
+    padding: 1rem;
 }
 .box-img-paragraph{
     background-image: url(IMG/27\ Plum.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 614px;
+    height: 522px;
     width:930px;
     display: flex;
     justify-content: center;
@@ -51,5 +62,30 @@ li{
 }
 
 .img-paragraph-right{
-    height: 137px;
+    height: 165px;
+}
+.main-text{
+    font-size: 58px;
+    width: 37rem;
+}
+.paragraph-primari{
+    font-weight: bold;
+    font-size: 30px;
+    color: #45CFC9;
+}
+.paragraph-secundary{
+    font-size: 30px;
+    width: 37rem;
+}
+
+.secundary-list{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.style-list-secundary:hover{
+    text-decoration: underline red;
 }
