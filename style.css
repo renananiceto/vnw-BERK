@@ -19,23 +19,28 @@
     list-style: none;
     cursor: pointer;
     opacity: 0.5;
+    width: 71px;
 
 }
+
 .style-list-primary:hover{
     color: black;
     opacity: 1;
     font-weight: bolder;
 }
+
 .model-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 32rem;
 }
+
 .conteiner-paragraph{
     display: flex;
 
 }
+
 .box-paragraph{
     width:50%;
     display: flex;
@@ -45,6 +50,7 @@
     text-align: start;
     padding: 1rem;
 }
+
 .box-img-paragraph{
     background-image: url(IMG/27\ Plum.png);
     background-repeat: no-repeat;
@@ -65,27 +71,78 @@
     height: 165px;
 }
 .main-text{
-    font-size: 58px;
+    font-size: 57px;
     width: 37rem;
 }
+
 .paragraph-primari{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 29px;
     color: #45CFC9;
 }
+
 .paragraph-secundary{
-    font-size: 30px;
+    font-size: 25px;
     width: 37rem;
 }
 
 .secundary-list{
     display: flex;
     justify-content: space-around;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 30px;
     list-style: none;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
+
+.style-list-secundary{
+    /* width: 160px; */
+}
+
 .style-list-secundary:hover{
     text-decoration: underline red;
+    font-weight: 700;
+}
+.conteiner-img{
+    background-color: #B4F8F7;
+}
+.box-figure{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.box-figure-size{
+    width:40%;
+}
+
+.figure-size{
+    width: 100%;
+    margin: 2rem;
+}
+
+footer{
+    background-color: #F8F3A1;
+}
+.conteiner-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    align-items: center;
+}
+
+.logo-foorer{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.paragraph-footer{
+    font-size: 23px;
+    font-weight: bold;
+}
+.box-social-networks{
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
 }
