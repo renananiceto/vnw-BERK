@@ -262,6 +262,11 @@ footer{
     width: 78%;
     height: 5rem;
 }
+@media (max-width:425px){
+    .box-developer{
+        width:auto;
+}
+}
 .paragraph-developer{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
