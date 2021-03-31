@@ -264,7 +264,7 @@ footer{
 }
 @media (max-width:425px){
     .box-developer{
-        width:auto;
+        display: none;
 }
 }
 .paragraph-developer{
