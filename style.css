@@ -66,9 +66,14 @@
     text-align: start;
     padding: 1rem;
 }
-@media (max-width:1024px){
-    .box-img-paragraph{
-        width:46%;
+@media (max-width:768px){
+    .box-paragraph{
+        text-align: center;
+    }
+}
+@media (max-width:425px){
+    .box-paragraph{
+        text-align: center;
     }
 }
 .box-img-paragraph{
@@ -142,6 +147,16 @@
     .paragraph-secundary{
         font-size: 14px;
         width: 21rem;
+    }
+}
+@media (max-width:768px){
+    .paragraph-secundary{
+        width: 28rem;
+    }
+}
+@media (max-width:425px){
+    .paragraph-secundary{
+        width: 25rem;
     }
 }
 .secundary-list{
@@ -264,7 +279,7 @@ footer{
 }
 @media (max-width:425px){
     .box-developer{
-        display: none;
+        width: 23rem;
 }
 }
 .paragraph-developer{
